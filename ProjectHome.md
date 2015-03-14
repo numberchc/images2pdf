@@ -1,0 +1,1 @@
+Aplikacja do tworzenia galerii w postaci pliku PDF ze wskazanego katalogu z obrazami.
