@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="images2pdf" basedir="." default="run">
+	<target name="run">
+		<mkdir dir="build/" />
+		<javac srcdir="src/" destdir="build/" />
+		<java classname="images2pdf.Images2pdf" classpath="build/" fork="true" />
+	</target>
+</project>
